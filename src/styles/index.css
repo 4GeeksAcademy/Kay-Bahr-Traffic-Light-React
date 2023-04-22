@@ -1,12 +1,55 @@
-
-/* 
-
-    You can write your own styles here...
+button {
+    margin-top: 10px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+  }
+  
+  .pole {
+    background-color: black;
+    width: 30px;
+    height: 200px;
+  }
+  
+  .traffic {
+    background-color: black;
+    width: 200px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .light {
+    width: 115px;
+    height: 125px;
+    border-radius: 50%;
+    margin-left: 42px;
+    margin-bottom: 30px;
+    transition: box-shadow 0.5s ease-in-out; /* add transition effect */
+  }
+  
+  .light.active {
+    box-shadow: 0 0 70px rgb(254, 249, 232); /* increase glow effect on active light */
+  }
+    
+  .red {
+    background-color: red;
+    margin-top: 30px;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
